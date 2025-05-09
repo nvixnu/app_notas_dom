@@ -83,6 +83,7 @@ ul#cards > li > textarea{
     margin-left: 4px;
     margin-right: 4px;
     min-width: 150px;
+    resize: none;
 }
 
 ul#cards > li .btn-container{
@@ -153,12 +154,12 @@ ul#cards.grade-pequena{
 
     ul#cards.grade-grande > li{
         width: calc(100% - 24px);
-        min-height: 200px;
+        height: 200px;
     }
 
     ul#cards.grade-pequena > li{
         width: calc(50% - 24px);
-        min-height: 100px;
+        height: 200px;
     }
 }
 
