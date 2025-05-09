@@ -153,12 +153,12 @@ ul#cards.grade-pequena{
 
     ul#cards.grade-grande > li{
         width: calc(100% - 24px);
-        height: 200px;
+        min-height: 200px;
     }
 
     ul#cards.grade-pequena > li{
         width: calc(50% - 24px);
-        height: 100px;
+        min-height: 100px;
     }
 }
 
